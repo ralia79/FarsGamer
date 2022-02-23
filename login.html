@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./styles/style.global.css" />
+    <link rel="stylesheet" href="./styles/Login.css" />
+    <link rel="stylesheet" href="./styles/bootstrap-grid.min.css" />
+    <link rel="stylesheet" href="./styles/bootstrap.min.css" />
+    <link rel="stylesheet" href="./styles/bootstrap.rtl.min.css" />
+    <link
+      href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet"
+    />
+    <title>farsGamer</title>
+  </head>
+  <body>
+    <div class="all col-12">
+      <div
+        class="col-md-6 col-12 d-flex flex-column justify-content-center align-items-center"
+      >
+        <!-- Login -->
+        <div class="Login d-flex flex-column">
+          <div class="d-flex align-items-center">
+            <p class="m-0">ورود به</p>
+            <p class="m-0 cursPointer purple">فارس گیمر</p>
+          </div>
+          <div class="d-flex flex-column mt-C">
+            <p class="m-0 phoneNumber">شماره همراه</p>
+            <input type="text" class="mt-2" />
+          </div>
+          <div class="d-flex mt-C">
+            <button class="Cbtn search-btn" onclick="loginFun(1)">تایید</button>
+          </div>
+          <div class="d-flex align-items-center mt-4 createAccountbtn">
+            <p>حساب کاربری ندارید ؟</p>
+            <p class="purple cursPointer" onclick="SignUpFun()">ثبت نام</p>
+          </div>
+        </div>
+
+        <!-- Auth sms code -->
+        <div class="Confirmation d-none flex-column">
+          <div class="d-flex flex-column">
+            <div class="d-flex align-items-center justify-content-sm-between">
+              <p class="m-0">کد ارسال شده به شماره</p>
+              <p class="m-0 cursPointer purple">09154810489</p>
+            </div>
+            <p>را وارد نمایید</p>
+          </div>
+          <div class="d-flex flex-column mt-C">
+            <p class="m-0 phoneNumber">کد ارسالی</p>
+            <input type="text" class="mt-2" />
+            <div class="d-flex align-items-center justify-content-between pt-1">
+              <p class="m-0 p-0 des-of-Product">تصحیح شماره تلفن</p>
+              <div class="d-flex align-items-center">
+                <p class="m-0 p-0 des-of-Product">ارسال مجدد کد</p>
+                <p class="m-0 p-0 des-of-Product">(1:00)</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="d-flex mt-C">
+            <button class="Cbtn search-btn">تایید</button>
+          </div>
+          <div class="d-flex align-items-center mt-4 createAccountbtn">
+            <p>حساب کاربری ندارید ؟</p>
+            <p class="purple cursPointer" onclick="SignUpFun()">ثبت نام</p>
+          </div>
+        </div>
+
+        <!-- SignUp -->
+        <div class="SignUp d-none flex-column">
+          <div class="d-flex align-items-center">
+            <p class="m-0">ثبت نام در</p>
+            <p class="m-0 cursPointer purple">فارس گیمر</p>
+          </div>
+          <div class="d-flex flex-column mt-C">
+            <p class="m-0 phoneNumber">شماره همراه</p>
+            <input type="text" class="mt-2" />
+          </div>
+          <div class="d-flex flex-column mt-C">
+            <p class="m-0 phoneNumber">نام کاربری</p>
+            <input type="text" class="mt-2" />
+          </div>
+
+          <div class="d-flex mt-C">
+            <button class="Cbtn search-btn">تایید</button>
+          </div>
+          <div class="d-flex align-items-center mt-4 createAccountbtn">
+            <p>حساب کاربری دارید ؟</p>
+            <p class="purple cursPointer" onclick="loginFun(2)">ورود</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-6 d-md-block d-none left p-0 m-0"></div>
+    </div>
+
+    <script src="./scripts/main.global.js"></script>
+  </body>
+</html>
