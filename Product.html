@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./styles/style.global.css" />
+    <link rel="stylesheet" href="./styles/bootstrap-grid.min.css" />
+    <link rel="stylesheet" href="./styles/bootstrap.min.css" />
+    <link rel="stylesheet" href="./styles/bootstrap.rtl.min.css" />
+    <link
+      href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet"
+    />
+    <title>Product</title>
+  </head>
+  <body>
+    <div class="all">
+      <!-- header -->
+      <div
+        class="BasePage-top col-12 d-flex align-items-center justify-content-between"
+      >
+        <div class="logo-wrapper">
+          <img src="./assets/img/Logo.png" alt="" />
+          <label class="searchBox-Pro">
+            <span class="material-icons">search</span>
+            <input type="text" placeholder="جستجو در تمام اکانت ها" />
+          </label>
+        </div>
+        <div class="notification-Bar position-relative d-flex">
+          <div class="d-flex align-items-center">
+            <span class="material-icons unread cursPointer"
+              >bookmark_border</span
+            >
+            <span class="material-icons cursPointer d-md-block d-none"
+              >chat_bubble_outline</span
+            >
+            <span class="material-icons cursPointer">notifications_none</span>
+            <span
+              class="material-icons cursPointer d-md-block d-none"
+              onclick="showAccountInfo()"
+              >person_outline</span
+            >
+
+            <!-- Account info has show when click on person icon -->
+            <div class="Account-info d-none flex-column p-2">
+              <div class="Line"></div>
+              <div class="top-of-Account-info d-flex align-items-center">
+                <div
+                  class="right-top-of-Account-info d-flex align-items-center"
+                >
+                  <img
+                    src="./assets/img/ProfilePhoto.png"
+                    class="cursPointer"
+                    alt=""
+                  />
+                  <div class="d-flex flex-column p-2">
+                    <div class="d-flex align-items-center">
+                      <p class="p-0 m-0 bold">سلام</p>
+                      <p class="Account-name2 cursPointer">محمد رضا</p>
+                    </div>
+                    <p class="m-0 p-0 des-of-Product">خوش اومدی</p>
+                  </div>
+                </div>
+              </div>
+              <!-- Go to Profile btn -->
+              <div
+                class="Profile-Account-info d-flex align-items-center justify-content-between p-2 cursPointer"
+              >
+                <p class="m-0 p-0 purple">مشاهده پروفایل</p>
+                <div class="material-icons purple">chevron_left</div>
+              </div>
+              <!-- two btn for Auth -->
+              <div class="d-flex flex-column p-2 Auth-section-Account-info">
+                <p class="m-0 p-0 cursPointer">احراز هویت</p>
+                <p class="m-0 p-0 pt-3 cursPointer">آگهی های من</p>
+              </div>
+              <!-- Log out -->
+              <div class="d-flex align-items-center p-2 pt-3 cursPointer">
+                <div class="material-icons">logout</div>
+                <p class="p-0 m-0">خروج از حساب</p>
+              </div>
+            </div>
+          </div>
+          <div class="phone-number d-flex align-items-center d-md-flex d-none">
+            <p class="m-0 p-0">0515222222</p>
+          </div>
+        </div>
+      </div>
+
+      <!-- directory -->
+      <div class="row justify-content-start align-content-start m-2 directory">
+        <p class="w-fit">فارس گیمر</p>
+        &gt;
+        <p class="w-fit">استیم</p>
+        &gt;
+        <p class="w-fit">csgo</p>
+      </div>
+      <!-- base -->
+      <div class="w-100 row">
+        <div class="col-6 rightOfPro"></div>
+        <div class="col-6 leftOfPro p-2">
+          <div class="w-100 d-flex flex-column">
+            <div class="topOfleftOfPro w-100 row justify-content-between">
+              <!-- <div class="right_topOfleftOfPro">
+
+                            </div>
+                            <div class="left_topOfleftOfPro"></div> -->
+              <div
+                class="Top-Products-item d-flex align-items-center justify-content-between w-100 p-2"
+              >
+                <div class="Right-Top-Products-item d-flex align-items-center">
+                  <div class="spacialAccount Pro-wrapper">
+                    <img
+                      src="./assets/img/Pro.png"
+                      alt=""
+                      class="cursPointer"
+                    />
+                  </div>
+                  <div class="d-flex flex-column">
+                    <p class="Account-name m-0">مدیر دوبلاژ</p>
+                    <p class="Last-Seen m-0">فروشنده احراز هویت شده</p>
+                  </div>
+                </div>
+                <div class="left-Top-Products-item d-flex flex-row-reverse align-items-center">
+                  <img src="./assets/img/Ps.png" alt="" class="cursPointer" />
+                  <img
+                    src="./assets/img/bookmark.png"
+                    class="cursPointer"
+                    alt=""
+                  />
+                  <img
+                    src="./assets/img/sequrity.png"
+                    class="cursPointer"
+                    alt=""
+                  />
+ 
+                  <div class="seen d-flex w-fit ">
+                        <span class="material-icons">visibility</span>
+                        <p class="p-2 m-0">120</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script src="./scripts/bootstrap.min.js"></script>
+    <script src="./scripts/main.global.js"></script>
+  </body>
+</html>
