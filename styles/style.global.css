@@ -497,11 +497,12 @@ body {
 .top-of-Account-info {
     border-bottom: 1px solid #E9E9E9;
 }
+
 .bottom-Products-item {
     margin-bottom: 20px;
-   padding-right: 15px;
-
+    padding-right: 15px;
 }
+
 .right-bottom-bottom-Products-item img {
     width: 35px;
     height: 35px;
@@ -588,8 +589,9 @@ body {
 }
 
 .searchBox-Pro {
-    margin-right:70px ;
+    margin-right: 70px;
 }
+
 .searchBox-Pro input {
     width: 364px;
     height: 55px;
@@ -598,12 +600,13 @@ body {
     border: none;
     border-radius: 8px;
     padding: 0 40px 0 0;
-
 }
+
 .searchBox-Pro input::placeholder {
     color: #808191;
     font-size: 16px;
 }
+
 .searchBox-Pro span {
     color: #808191;
     position: absolute;
@@ -615,23 +618,153 @@ body {
 .w-fit {
     width: fit-content !important;
 }
+
 .directory p {
     font-size: 12px;
     color: #808191;
 }
+
 .topOfleftOfPro {
-    background-color:#F7F7F7 ;
+    background-color: #F7F7F7;
     height: 100px;
     border: 1px solid #E9E9E9;
     border-radius: 8px 8px 0 0;
 }
 
-
 .left-Top-Products-item img {
-    /* width: 20px; */
-    /* height: 20px; */
     padding: 10px;
     border-radius: 5px;
     background-color: #F1F1F1;
     margin: 0 5px 0 0;
+}
+
+.top-bottom {
+    height: 100px;
+    border: 1px solid #E9E9E9;
+    border-radius: 0 0 8px 8px;
+    position: relative;
+}
+
+.Product_profile {
+    width: 80px !important;
+    height: 80px !important;
+}
+
+.topOfleftOfPro .spacialAccount::before {
+    content: url("./../assets/img/correct2.png") !important;
+    width: 23px !important;
+    height: 23px !important;
+}
+
+.topOfleftOfPro .Account-name {
+    font-size: 22px;
+}
+
+.topOfleftOfPro .Last-Seen {
+    font-size: 12px;
+}
+
+.header {
+    font-size: 22px;
+    font-weight: bold;
+}
+
+.des span {
+    color: #808191;
+    font-size: 20px;
+}
+
+.des p {
+    color: #808191;
+    font-size: 12px;
+}
+
+.price_Product p:nth-child(1) {
+    font-size: 22px;
+    font-weight: bold;
+}
+
+.price_Product p:nth-child(2) {
+    font-size: 22px;
+}
+
+.line_left {
+    width: 6px;
+    height: 65px;
+    background-color: #7007FA;
+    border-radius: 5px;
+    position: absolute;
+    left: 0;
+}
+
+.pl-0 {
+    padding-left: 0 !important;
+}
+
+.pl-10 {
+    padding-left: 10px;
+}
+
+.spacialBtn {
+    font-weight: bold !important;
+    height: 50px !important;
+}
+
+.spacialBtn_outlined {
+    font-weight: bold !important;
+    height: 50px !important;
+    background-color: transparent !important;
+    border: 1px solid #7007FA;
+    color: #7007FA;
+    outline: none;
+    padding: 10px 20px;
+    border-radius: 10px;
+    overflow: hidden !important;
+    position: relative;
+    cursor: pointer;
+    width: 140px;
+    margin-left: 10px;
+}
+
+.chat-online p {
+    color: #7007FA;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.chat-online span {
+    color: #7007FA;
+    font-size: 22px;
+    font-weight: bold;
+}
+
+.pl-30 {
+    padding-left: 30px;
+}
+
+.shenase p {
+    font-size: 12px;
+    color: #808191;
+}
+
+.Specifications p {
+    font-size: 22px;
+    font-weight: bold;
+}
+
+.table-item {
+    padding: 25px 0;
+}
+
+.table-left {
+    border-right: 1px solid #E9E9E9;
+    padding-right: 20px;
+}
+.table-left  .table-item {
+    padding: 28px 0;
+}
+.border-bottom {
+    background-color:#E9E9E9;
+    width: 350px;
+    height: 1px;
 }
